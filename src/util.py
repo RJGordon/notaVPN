@@ -38,10 +38,3 @@ def getPassword(vpn):
 	index = findn(string, vpns[vpn]['str'], int(vpns[vpn]['nth']))
 	return string[index+int(vpns[vpn]["sio"]):index+int(vpns[vpn]["eio"])]
 
-if __name__ == "__main__":
-	print(getPassword("vpnbook"))
-	print(getPassword("vpnmask"))
-	print(getPassword("vpnmeDE"))
-	print(getPassword("vpnmeUS"))
-	print(getPassword("vpnmeUS2"))
-
