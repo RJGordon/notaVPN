@@ -1,0 +1,38 @@
+[{
+	"vpnbook": {
+		"url": "http://www.vpnbook.com",
+		"sio": 10,
+		"eio": 18,
+		"str": "Password:",
+		"nth": 0
+	},
+	"vpnmask": {
+		"url": "http://vpnmask.com",
+		"sio": 10,
+		"eio": 18,
+		"str": "Password:",
+		"nth": 3
+	},
+	"vpnmeDE": {
+		"url": "https://www.vpnme.me/freevpn.html",
+		"sio": 34,
+		"eio": 40,
+		"str": "Password",
+		"nth": 0
+	},
+	"vpnmeUS": {
+		"url": "https://www.vpnme.me/freevpn.html",
+		"sio": 56,
+		"eio": 62,
+		"str": "Password:",
+		"nth": 0
+
+	},
+	"vpnmeUS2": {
+		"url": "https://www.vpnme.me/freevpn.html",
+		"sio": 78,
+		"eio": 84,
+		"str": "Password:",
+		"nth": 0
+	}
+}]
