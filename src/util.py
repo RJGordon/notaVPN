@@ -19,6 +19,7 @@ def checkVersion(url):
 
 
 # Password Retrieval (Props to github.com/bannana) #
+
 def getURL(url):
 	buffer =  StringIO()
 
