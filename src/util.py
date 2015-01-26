@@ -1,25 +1,4 @@
-import urllib2, os, json
-
-
-CURVERSION = "1.0"
-
-
-# Version Tools #
-
-def checkVersion(url):
-	response = urllib2.urlopen(url)
-	versionNum = response.read()
-	printVal = ""
-	if versionNum == CURVERSION:
-		printVal = "notaVPN is currently up-to-date."
-	else:
-		printVal = "notaVPN is outdated and must be updated immidiately."
-	print("{} | Version Number: {}".format(printVal, CURVERSION)
-
-	## DO UPDATE ## 
-
-
-# Password Retrieval (Props to github.com/bannana) #
+import os, json
 
 def getURL(url):
 	buffer =  StringIO()
@@ -31,6 +10,19 @@ def getURL(url):
 	c.close()
 
 	return buffer.getvalue()
+
+def checkUpdates(curVers, url):
+	retVal = False
+	latestVersion = getURL(url)
+	printVal = ""
+	if versionNum == curVers:
+		printVal = "notaVPN is currently up-to-date."
+	else:
+		printVal = "notaVPN is outdated and must be updated immidiately."
+		retVal = True
+
+	print("{} | Version Number: {}".format(printVal, curVers)
+	return(retVal)
 
 def findn(string, substring, n):
 	parts = string.split(substring, n+1)

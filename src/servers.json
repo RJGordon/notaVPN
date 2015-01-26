@@ -1,111 +1,123 @@
-[{
-	"vpnbookEU1": {
+[
+	{
 		"dsp":"VPNBook Europe 1",
 		"srv":"euro217.vpnbook.com",
 		"url": "http://www.vpnbook.com",
 		"sio": 10,
 		"eio": 18,
 		"str": "Password:",
+		"usr":"vpnbook",
 		"nth": 0
 	},
-	"vpnbookEU2": {
+	{
 		"dsp":"VPNBook Europe 2",
 		"srv":"euro214.vpnbook.com",
 		"url": "http://www.vpnbook.com",
 		"sio": 10,
 		"eio": 18,
 		"str": "Password:",
+		"usr":"vpnbook",
 		"nth": 0
 	},
-	"vpnbookUS1": {
+	{
 		"dsp":"VPNBook USA 1 - No P2P",
 		"srv":"us1.vpnbook.com",
 		"url": "http://www.vpnbook.com",
 		"sio": 10,
 		"eio": 18,
 		"str": "Password:",
+		"usr":"vpnbook",
 		"nth": 0
 	},
-	"vpnbookUS2": {
+	{
 		"dsp":"VPNBook USA 2 - No P2P",
 		"srv":"us2.vpnbook.com",
 		"url": "http://www.vpnbook.com",
 		"sio": 10,
 		"eio": 18,
 		"str": "Password:",
+		"usr":"vpnbook",
 		"nth": 0
 	},
-	"vpnbookCA": {
-		"dsp":"VPNBook CA 1 - No P2P",
+	{
+		"dsp":"VPNBook Canada 1 - No P2P",
 		"srv":"ca1.vpnbook.com",
 		"url": "http://www.vpnbook.com",
 		"sio": 10,
 		"eio": 18,
 		"str": "Password:",
+		"usr":"vpnbook",
 		"nth": 0
 	},
-	"vpnmaskEU1": {
-		"dsp":"VPNMask EU 1",
+	{
+		"dsp":"VPNMask Europe 1",
 		"srv":"euro1.vpnmask.com",
 		"url": "http://vpnmask.com",
 		"sio": 10,
 		"eio": 18,
 		"str": "Password:",
+		"usr":"vpnmask",
 		"nth": 3
 	},
-	"vpnmaskEU2": {
-		"dsp":"VPNMask EU 2",
+	{
+		"dsp":"VPNMask Europe 2",
 		"srv":"euro2.vpnmask.com",
 		"url": "http://vpnmask.com",
 		"sio": 10,
 		"eio": 18,
 		"str": "Password:",
+		"usr":"vpnmask",
 		"nth": 3
 	},
-	"vpnmaskUK": {
-		"dsp":"VPNMask UK - No P2P",
+	{
+		"dsp":"VPNMask United Kingdom - No P2P",
 		"srv":"uk1.vpnmask.com",
 		"url": "http://vpnmask.com",
 		"sio": 10,
 		"eio": 18,
 		"str": "Password:",
+		"usr":"vpnmask",
 		"nth": 3
 	},
-	"vpnmaskUS": {
+	{
 		"dsp":"VPNMask USA - No P2P",
 		"srv":"us1.vpnmask.com",
 		"url": "http://vpnmask.com",
 		"sio": 10,
 		"eio": 18,
 		"str": "Password:",
+		"usr":"vpnmask",
 		"nth": 3
 	},
-	"vpnmeDE": {
-		"dsp":"VPNMe DE",
+	{
+		"dsp":"VPNMe Denmark",
 		"srv":"de1.vpnme.me",
 		"url": "https://www.vpnme.me/freevpn.html",
 		"sio": 34,
 		"eio": 40,
 		"str": "Password",
+		"usr":"vpnme",
 		"nth": 0
 	},
-	"vpnmeUS1": {
-		"dsp":"VPNMe US 1",
+	{
+		"dsp":"VPNMe USA 1",
 		"srv":"us1.vpnme.me",
 		"url": "https://www.vpnme.me/freevpn.html",
 		"sio": 56,
 		"eio": 62,
 		"str": "Password:",
+		"usr":"vpnme",
 		"nth": 0
 
 	},
-	"vpnmeUS2": {
-		"dsp":"VPNMe US 2",
+	{
+		"dsp":"VPNMe USA 2",
 		"srv":"us2.vpnme.me",
 		"url": "https://www.vpnme.me/freevpn.html",
 		"sio": 78,
 		"eio": 84,
 		"str": "Password:",
+		"usr":"vpnme",
 		"nth": 0
 	}
-}]
+]
