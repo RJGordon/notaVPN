@@ -1,6 +1,9 @@
 import urllib2, os
 
+
 CURVERSION = "1.0"
+
+# Version Tools #
 
 def checkVersion(url):
 	response = urllib2.urlopen(url)
@@ -15,7 +18,7 @@ def checkVersion(url):
 	## DO UPDATE ## 
 
 
-# bannana's code #
+# Password Retrieval (Props to github.com/bannana) #
 def getURL(url):
 	buffer =  StringIO()
 
