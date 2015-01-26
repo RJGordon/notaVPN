@@ -1,7 +1,8 @@
-import urllib2, os
+import urllib2, os, json
 
 
 CURVERSION = "1.0"
+
 
 # Version Tools #
 
@@ -38,7 +39,9 @@ def findn(string, substring, n):
 	return len(string)-len(parts[-1])-len(substring)
 
 def getPassword(vpn):
+	server_data=open('servers.json')
+	vpns = json.load(server_data)
 	string = getURL(vpns[vpn]['url'])
 	index = findn(string, vpns[vpn]['str'], int(vpns[vpn]['nth']))
 	return string[index+int(vpns[vpn]["sio"]):index+int(vpns[vpn]["eio"])]
-
+	
