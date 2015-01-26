@@ -1,9 +1,11 @@
 FreeVPN
 ========
 Servers:  
-	dsa
+
 	DE  | de1.vpnme.me
+	
         US  | us1.vpnme.me
+        
         US2 | us2.vpnme.me
 Username: vpnme
 Password Page: https://www.vpnme.me/freevpn.html
