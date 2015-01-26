@@ -1,7 +1,9 @@
 FreeVPN
 ========
-Servers:  DE  | de1.vpnme.me
- 
+Servers:  
+
+	  DE  | de1.vpnme.me
+          
           US  | us1.vpnme.me
           
           US2 | us2.vpnme.me
